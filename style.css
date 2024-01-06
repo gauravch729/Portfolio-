@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: darkslategrey;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+p {
+  margin: 10px 0;
+}
+
+nav {
+  background-color: darkslategrey;
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  margin: 0 10px;
+  display: block;
+  transition: color 0.3s;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  color: gray;
+  background-color: whitesmoke;
+}
+
+.about-me, .projects, .contact {
+  padding: 40px;
+  background-color: black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: darkslategrey;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact p {
+  margin-bottom: 15px;
+}
